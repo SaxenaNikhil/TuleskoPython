@@ -10,5 +10,43 @@
 if True:
     print('Im right')
 
-if False:
-    print('Im wrong')
+#else:
+    #print('Im wrong!') # This will execute in case if another condition or in case of false condition.
+
+print('#>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# Check if the number is odd or even
+
+num = 4
+remainder = num % 2
+if remainder == 0:
+    print("Number is Even")
+    if num > 5:
+        print('Number is greater than 5')
+    else:
+        print('Number is smaller than 5')
+
+else:
+    print("Number is odd")
+
+print('#>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# if elif else condition
+
+x=5
+if x==1:
+    print("One")
+
+elif x==2:
+    print('Two')
+
+elif x==3:
+    print('Three')
+
+elif x==4:
+    print('Four')
+
+else:
+    print('Wrong Input')
